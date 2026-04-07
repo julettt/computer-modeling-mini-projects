@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from scipy.spatial import Delaunay
 
 
-npoints = 20
+npoints = 60
 alpha = 1
 beta = 1
 rho = 0.5
@@ -14,7 +14,7 @@ num_ants = 20
 start = 0
 goal = 17
 
-targets = [start, 1, 12, goal]
+targets = [start, 1, 12, 32, goal]
 
 max_steps = 100 #max steps given to ant for it to find their path
 
